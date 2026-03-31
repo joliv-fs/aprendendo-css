@@ -1,4 +1,4 @@
-div.white {
+div.white-PL {
   box-sizing: border-box;
   height: 200px;
   background-color: white;
@@ -6,10 +6,35 @@ div.white {
   border-bottom: none;
 }
 
-div.red {
+div.red-PL {
   box-sizing: border-box;
   height: 200px;
   background-color: red;
+  border: solid black 5px;
+  border-top: none;
+}
+
+div.red-NLD {
+  box-sizing: border-box;
+  height: 200px;
+  background-color: red;
+  border: solid black 5px;
+  border-bottom: none;
+}
+
+div.white-NLD {
+  box-sizing: border-box;
+  height: 200px;
+  background-color: white;
+  border: solid black 5px;
+  border-top: none;
+  border-bottom: none;
+}
+
+div.blue-NLD {
+  box-sizing: border-box;
+  height: 200px;
+  background-color: blue;
   border: solid black 5px;
   border-top: none;
 }
