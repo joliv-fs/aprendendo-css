@@ -1,8 +1,17 @@
-p {
+p.ex02 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 4rem;
   text-align: right;
   text-transform: lowercase;
   font-weight: bolder;
   color: purple;
+}
+
+p.ex03 {
+  font-family: "Inter";
+  font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: lighter;
+  color: blue;
 }
