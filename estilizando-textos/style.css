@@ -9,9 +9,25 @@ p.ex02 {
 
 p.ex03 {
   font-family: "Inter";
-  font-size: 2rem;
+  font-size: 2em;
   text-align: center;
   text-transform: uppercase;
   font-weight: lighter;
   color: blue;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+p.ex04 {
+  font-family: "Roboto", sans-serif;
+  font-size: 50%;
+  text-align: center;
+  text-transform: uppercase;
+  color: orangered;
 }
