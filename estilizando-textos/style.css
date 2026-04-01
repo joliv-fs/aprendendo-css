@@ -1,38 +1,43 @@
-p.ex02 {
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+html {
+  font-size: 4px;
+}
+
+p {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
+  font-weight: normal;
+  text-align: justify;
+}
+
+p.ex02 {
+  /* font-family: Arial, Helvetica, sans-serif; */
+  font-size: 4rem;
   text-align: justify;
   text-transform: lowercase;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   color: purple;
 }
 
 p.ex03 {
-  font-family: "Inter";
-  font-size: 1em;
+  /* font-family: "Inter", sans-serif; */
+  font-size: 2em;
   text-align: justify;
   text-transform: uppercase;
-  font-weight: lighter;
+  /* font-weight: lighter; */
   color: blue;
 }
 
-.roboto {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-
 p.ex04 {
-  font-family: "Roboto", sans-serif;
-  font-size: 100%;
+  /* font-family: "Roboto", sans-serif; */
+  font-size: 50%;
   text-align: justify;
+  text-transform: capitalize;
   color: orangered;
 }
 
 p.ex05 {
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-size: 16px;
   text-align: justify;
   color: green;
